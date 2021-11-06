@@ -1,6 +1,5 @@
 const fs = require('fs/promises');
 const path = require('path');
-const { start } = require('repl');
 
 (async function (src, dist) {
   try {
